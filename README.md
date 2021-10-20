@@ -14,6 +14,16 @@ Please branch and send PR.
 
 `package.json` is managed through a tool on the platform, if you want to add any packages, write details of the package and version in the PR notes.
 
+Currently installed are:
+
+```
+"lib": "latest",
+"node-fetch": "^2.6.1",
+"ethers": "^5.4.1",
+"moment": "^2.29.1",
+"lodash": "^4.17.21"
+```
+
 If you want to add any new commands, use https://autocode.com/tools/discord/command-builder/ and put the generated code (example below) in a file in subfolder `commands` called `command-{COMMAND_NAME}.json`.
 
 Example command builder output for `/evostats`:
