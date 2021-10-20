@@ -24,7 +24,7 @@ Currently installed are:
 "lodash": "^4.17.21"
 ```
 
-If you want to add any new commands, use https://autocode.com/tools/discord/command-builder/ and put the generated code (example below) in a file in subfolder `commands` called `command-{COMMAND_NAME}.js`.
+If you want to add any new commands, put the implementation of the command in the `functions/events/discord` folder. You'll also need to generate a specification of command inputs, to do this use https://autocode.com/tools/discord/command-builder/. Put the generated code (example below) in a file in subfolder `commands` called `command-{COMMAND_NAME}.js`.
 
 Example command builder output for `/evostats`:
 
